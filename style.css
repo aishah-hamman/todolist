@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+.message {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+	font-weight: bolder;
+	color: #582949;
+	padding-bottom: 20px;
+	
+}
+
+
+body{
+	background: #ead7c3;
+	font-family: 'Poppins',sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+
+}
+
+
+.todo{
+
+    position: relative;
+	height: 450px;
+	width: 350px;
+	border: 2px solid #393e41;
+	border-radius: 20px;
+	background-color: #fbf6ef;
+	
+
+
+}
+
+
+.add-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    border: 2px solid #393e41;
+    border-radius: 50%;
+    padding: 5px;
+	
+}
+
+
+
+li {
+	
+	padding:5px;
+	transition: background-color 1s ease;
+	outline: none;
+	font-size: 20px;
+}
+
+
+ol {
+    list-style-type: none;
+    padding: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Style for checked items */
+li .checkbox:checked {
+    /* Add your styles for checked items */
+    outline: none; /* This removes the outline on checked checkboxes */
+}
+
